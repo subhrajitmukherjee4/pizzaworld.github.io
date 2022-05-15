@@ -1,0 +1,36 @@
+body{
+	background-image: url(../Downloads/pizza_bg.jpg);
+	background-size: cover;
+	margin: 0px 0px;
+	padding: 30px 15px;
+}
+img{
+	border: 4px solid black;
+	border-radius: 50px;
+}
+h2{
+	color: white;
+}
+
+
+figcaption{
+	color: darkblue;
+}
+img{
+	justify-content: center;
+	margin: 12px;
+
+}
+.img-with-text {
+    text-align: center;
+    width: 400;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+img:hover{
+	transition: transform 1s;
+	transform: scale(1.1);
+}
+
